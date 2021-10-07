@@ -1,0 +1,56 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin: 0 0 0 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin: 0 10px 0 0;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: green url();
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo {
+    font-size: 40px;
+}
