@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/main.css">
-    <title>FlixFlix</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <title>MARVEL FLIX</title>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <h2 class="logo">NETFLIX</h2>
-            <nav>
-                <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
-            </nav>
-        </div>
+      <div class="container">
+        <h2 class="logo">MARVEL FLIX</h2>
+        <nav>
+          <a href="#">Início</a>
+          <a href="#">Séries</a>
+          <a href="#">Filmes</a>
+          <a href="#">Curiosidades</a>
+        </nav>
+      </div>
     </header>
     <main>
-        <div class="filme-principal">
-            <div class="container">
-                <h3 class="titulo">HOUSE OF COMICS</h3>
-                <p class="descricao">Teste bla bla bla</p>
-            </div>
-            <div class="botoes">
-                <button role="button" class="botao">Assistir Agora</button>
-                <button role="button" class="botao">Mais informações</button>
-            </div>
+      <div class="filme-principal">
+        <div class="container">
+          <h3 class="titulo">Sobre a Marvel</h3>
+          <p class="descricao">
+            O universo Marvel é composto por diversos filmes de sucesso como
+            Vingadores, Homem-Aranha, Viúva Negra e muitos outros! Escolha um
+            pra assistir e divirta-se!
+          </p>
+          <div class="botoes">
+            <a href="https://www.youtube.com/c/marvelbr">
+              <button role="button" class="botao">
+                <i class="fab fa-youtube"></i>Canal Oficial
+              </button>
+            </a>
+            <a href="https://pt.wikipedia.org/wiki/Marvel_Comics">
+              <button role="button" class="botao">
+                <i class="fas fa-info"></i>História
+              </button>
+            </a>
+          </div>
         </div>
+      </div>
+      <div class="owl-carousel owl-theme carrosel">
+        <div><img src="img/serie1.jpg" alt="Série Loki" class="box-filme" /></div>
+        <div><img src="img/serie2.jpg" alt="Filme Homem-Aranha 2" class="box-filme" /></div>
+        <div><img src="img/serie3.jpg" alt="Filme Viúva Negra" class="box-filme" /></div>
+        <div><img src="img/serie4.jpg" alt="Filme Homem-Aranha" class="box-filme" /></div>
+        <div><img src="img/serie5.jpg" alt="Filme Capitã Marvel" class="box-filme" /></div>
+        <div><img src="img/serie6.jpg" alt="Filme Homem-Aranha 3" class="box-filme" /></div>
+        <div><img src="img/serie7.jpg" alt="Vingadores 2" class="box-filme" /></div>
+        <div><img src="img/serie8.jpg" alt="Série Justiceiro" class="box-filme" /></div>
+        <div><img src="img/serie9.jpg" alt="Filme Vingadores" class="box-filme" /></div>
+        <div><img src="img/serie10.jpg" alt="Filme Homem de Ferro" class="box-filme" /></div>
+        <div><img src="img/serie11.jpg" alt="Filme Vingadores 3" class="box-filme" /></div>
+        <div><img src="img/serie12.jpg" alt="Filme Hulk" class="box-filme" /></div>
+      </div>
     </main>
-</body>
+    <footer>
+      <p>
+        Projeto de fins educacionais para o Desafio de HTML, CSS e JavaScript da
+        <a href="https://digitalinnovation.one/">Digital Innovation One</a>.
+      </p>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+    <script
+      src="https://kit.fontawesome.com/fcbef31e77.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
