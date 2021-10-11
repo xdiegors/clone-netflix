@@ -1,4 +1,4 @@
-#Exercício do bootcamp da Digital Innovation One - Impulso React Web Developer - Clone da interface do Netflix
+# Exercício do bootcamp da Digital Innovation One - Impulso React Web Developer - Clone da interface do Netflix
 
 Realizei algumas alterações puxando o tema para os filmes da Marvel.
 
