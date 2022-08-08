@@ -7,4 +7,4 @@ Veja o site ao vivo na Netlify:
 
 https://marvelflix-desafiodio.netlify.app/
 
-![My Image](https://github.com/xdiegors/clone-netflix/blob/master/Marvel%20Flix.jpg)
+![MarvelFlix](https://github.com/xdiegors/clone-netflix/blob/master/Marvel%20Flix.jpg)
